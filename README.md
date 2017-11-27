@@ -45,6 +45,9 @@ Column 1 is the class label.
 Remaining columns are pixel numbers (784 total).
 Each value is the darkness of the pixel (1 to 255)
 
+# Download link for dataset
+https://drive.google.com/open?id=1DlryirrEpJcuz2GPt3Jh2fl_Y5o8g4Zu
+
 # Acknowledgements
 
 Original dataset was downloaded from https://github.com/zalandoresearch/fashion-mnist
