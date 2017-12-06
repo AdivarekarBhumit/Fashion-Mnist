@@ -48,6 +48,12 @@ Each value is the darkness of the pixel (1 to 255)
 # Download link for dataset
 https://drive.google.com/open?id=1DlryirrEpJcuz2GPt3Jh2fl_Y5o8g4Zu
 
+# Network Graph
+![network](https://user-images.githubusercontent.com/26761067/33649439-fe79c44e-da83-11e7-894f-1c8531758b45.png)
+
+# Visualization of Accuracies & Losses
+![plots](https://user-images.githubusercontent.com/26761067/33649547-4df98e82-da84-11e7-9d81-35f1a0c4c84d.JPG)
+
 # Acknowledgements
 
 Original dataset was downloaded from https://github.com/zalandoresearch/fashion-mnist
