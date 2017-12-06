@@ -54,6 +54,23 @@ https://drive.google.com/open?id=1DlryirrEpJcuz2GPt3Jh2fl_Y5o8g4Zu
 # Visualization of Accuracies & Losses
 ![plots](https://user-images.githubusercontent.com/26761067/33649547-4df98e82-da84-11e7-9d81-35f1a0c4c84d.JPG)
 
+# Using TensorBoard
+You will need to use this `keras.callbacks.TensorBoard` if using keras
+
+`tbcallback = keras.callbacks.TensorBoard(log_dir="./Graph", histogram_freq=0, write_graph=True, write_images=True)
+history = model.fit(X_train, Y_train, batch_size=batch_size, epochs=epochs, verbose=1, validation_data=(X_val,Y_val), callbacks=[tbcallback])`
+
+Call the callback in fit method
+
+To open TensorBoard
+**On Linux**
+
+`$ tensorboard --logdir=<my_path>\Graph`
+
+**On Windows** 
+
+`tensorboard --logdir=foo:"<mp_path>\Graph"`
+
 # Acknowledgements
 
 Original dataset was downloaded from https://github.com/zalandoresearch/fashion-mnist
